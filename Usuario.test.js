@@ -27,6 +27,7 @@ describe('Usuario', () => {
             { id: 1, usuario: 'admin' },
             { id: 2, usuario: 'user2' },
             { id: 3, usuario: 'user3' },
+            
         ];
 
         Database.prototype.query.mockResolvedValue(mockUsers); // Simular la consulta a la base de datos
